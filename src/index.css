@@ -13,3 +13,32 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5rem;
+  padding: 3rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img{
+  width: 50%;
+  height: auto;
+}
+
+.card h1{
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+
